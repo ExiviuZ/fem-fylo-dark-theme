@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Fylo landing page with dark theme and features grid
+    </title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <img src="images/logo.svg" class="logo" alt="" />
+        </div>
+
+        <ul class="nav-links">
+          <li class="nav-items"><a href="">Features</a></li>
+          <li class="nav-items"><a href="">Team</a></li>
+          <li class="nav-items"><a href="">Sign In</a></li>
+        </ul>
+      </nav>
+
+      <section class="intro">
+        <img src="images/illustration-intro.png" class="intro-image" alt="" />
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+        <p>
+          Fylo stores all your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends
+          family, and co-workers.
+        </p>
+
+        <button class="header-btn">Get Started</button>
+      </section>
+    </header>
+    <main>
+      <!-- four icon section -->
+      <section class="four-icon-container">
+        <section class="anywhere">
+          <img src="images/icon-access-anywhere.svg" alt="" />
+          <h2>Access your files, anywhere</h2>
+          <p>
+            The ability to use a smartphone, tablet, or computer to access your
+            account means your files follow you everywhere.
+          </p>
+        </section>
+        <section class="security">
+          <img src="images/icon-security.svg" alt="" />
+          <h2>Security you can trust</h2>
+          <p>
+            2-factor authentication and user-controlled encryption are just a
+            couple of the security features we allow to help secure your files.
+          </p>
+        </section>
+        <section class="collaboration">
+          <img src="images/icon-collaboration.svg" alt="" />
+          <h2>Real-time collaboration</h2>
+          <p>
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required.
+          </p>
+        </section>
+        <section class="any-file">
+          <img src="images/icon-any-file.svg" alt="" />
+          <h2>Store any type of file</h2>
+          <p>
+            Whether you're sharing holidays photos or work documents, Fylo has
+            you covered allowing for all file types to be securely stored and
+            shared.
+          </p>
+        </section>
+      </section>
+
+      <!-- Stay Productive -->
+
+      <section class="stay-productive-container">
+        <img
+          src="images/illustration-stay-productive.png"
+          class="stay-productive-illustration"
+          alt=""
+        />
+
+        <div>
+          <h2>Stay productive, <span>wherever you are</span></h2>
+          <p>
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+          </p>
+          <p>
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required.
+          </p>
+
+          <a href="" class="how-fylo"
+            >See how Fylo works
+            <svg
+              width="16"
+              height="16"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <defs>
+                <circle id="b" cx="6" cy="6" r="6" />
+                <filter
+                  x="-25%"
+                  y="-25%"
+                  width="150%"
+                  height="150%"
+                  filterUnits="objectBoundingBox"
+                  id="a"
+                >
+                  <feOffset in="SourceAlpha" result="shadowOffsetOuter1" />
+                  <feGaussianBlur
+                    stdDeviation="1"
+                    in="shadowOffsetOuter1"
+                    result="shadowBlurOuter1"
+                  />
+                  <feColorMatrix
+                    values="0 0 0 0 0.384313725 0 0 0 0 0.878431373 0 0 0 0 0.850980392 0 0 0 0.811141304 0"
+                    in="shadowBlurOuter1"
+                  />
+                </filter>
+              </defs>
+              <g fill="none" fill-rule="evenodd">
+                <g transform="translate(2 2)">
+                  <use fill="#000" filter="url(#a)" xlink:href="#b" />
+                  <use class="colorized" xlink:href="#b" />
+                </g>
+                <path
+                  d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z"
+                  fill="#1B2330"
+                />
+              </g>
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+
+      <section class="testimonials">
+        <article>
+          <p>
+            Fylo has improved our team productivity by an order of magnitude.
+            Since making the switch our team has become a well-oiled
+            collaboration machine.
+          </p>
+          <div class="author">
+            <img src="images/profile-1.jpg" class="author-photo" alt="" />
+
+            <div>
+              <span class="name">Satish Patel</span>
+              <span class="role">Founder & CEO, Huddle</span>
+            </div>
+          </div>
+        </article>
+        <article>
+          <p>
+            Fylo has improved our team productivity by an order of magnitude.
+            Since making the switch our team has become a well-oiled
+            collaboration machine.
+          </p>
+          <div class="author">
+            <img src="images/profile-2.jpg" class="author-photo" alt="" />
+
+            <div>
+              <span class="name">Bruce McKenzie</span>
+              <span class="role">Founder & CEO, Huddle</span>
+            </div>
+          </div>
+        </article>
+        <article>
+          <p>
+            Fylo has improved our team productivity by an order of magnitude.
+            Since making the switch our team has become a well-oiled
+            collaboration machine.
+          </p>
+          <div class="author">
+            <img src="images/profile-3.jpg" class="author-photo" alt="" />
+
+            <div>
+              <span class="name">Iva Boyd</span>
+              <span class="role">Founder & CEO, Huddle</span>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <section class="footer-form">
+        <h2>Get early access today</h2>
+        <p>
+          It only takes a minute to sign up and our free starter is extremely
+          generous. If you have any questions, our support team would be happy
+          to help you.
+        </p>
+        <form action="#" class="the-form">
+          <div class="form-control">
+            <input
+              type="email"
+              class="email-input"
+              placeholder="email@example.com"
+            />
+            <span class="message"></span>
+          </div>
+          <button class="form-btn">Get Started for Free</button>
+        </form>
+      </section>
+      <div class="wrapper">
+        <div class="logo-container-footer">
+          <img src="images/logo.svg" class="logo-footer" alt="" />
+        </div>
+        <section class="footer-info" id="footer-links-container">
+          <div class="span-icon top">
+            <img src="images/icon-location.svg" alt="" />
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </span>
+          </div>
+          <div>
+            <div class="span-icon mid">
+              <img src="images/icon-phone.svg" alt="" />
+              <span>+1-543-123-4567</span>
+            </div>
+            <div class="span-icon bottom">
+              <img src="images/icon-email.svg" alt="" />
+              <span>example@fylo.com</span>
+            </div>
+          </div>
+
+          <ul class="footer-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+
+          <ul class="footer-links">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+
+          <ul class="socials">
+            <li><ion-icon name="logo-facebook"></ion-icon></li>
+            <li><ion-icon name="logo-twitter"></ion-icon></li>
+            <li><ion-icon name="logo-instagram"></ion-icon></li>
+          </ul>
+        </section>
+      </div>
+    </footer>
+
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Mark Angel M. Papio</a>.
+      </p>
+    </footer> -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script>
+      const form = document.querySelector(".the-form");
+      const emailInput = document.querySelector(".email-input");
+      const errorSpan = document.querySelector(".message");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        checkInput();
+      });
+
+      function checkInput() {
+        let emailValue = emailInput.value.trim();
+        if (emailValue == "") {
+          setErrorFor(emailInput, "Email cannot be blank");
+        } else if (
+          !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailValue)
+        ) {
+          setErrorFor(emailInput, "That Email is invalid");
+        } else {
+          setSuccessFor(emailInput);
+        }
+      }
+
+      function setErrorFor(input, message) {
+        let formControl = input.parentElement;
+        errorSpan.innerText = message;
+        input.classList.add("error");
+        input.classList.remove("success");
+      }
+      function setSuccessFor(input) {
+        let formControl = input.parentElement;
+        errorSpan.innerText = "";
+        input.classList.remove("error");
+        input.classList.add("success");
+      }
+    </script>
+  </body>
+</html>
